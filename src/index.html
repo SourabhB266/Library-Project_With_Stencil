@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=5.0" />
+    <title>Library Management</title>
+
+    <script type="module" src="/build/library-project.esm.js"></script>
+    <script nomodule src="/build/library-project.js"></script>
+
+    <style>
+      body {
+        background-image: url('./assets/libraryImage.jpeg');
+        background-repeat: no-repeat;
+        background-position: center fixed;
+        background-size: cover;
+        margin: 0;
+      }
+      @media screen and (max-width: 900px) {
+        * {
+          margin-top: 0px;
+          scroll-behavior: smooth;
+        }
+      }
+      h1 {
+        margin-top: 0%;
+        margin-bottom: 0%;
+      }
+      h2 {
+        background-color: black;
+        color: tomato;
+        font-weight: bold;
+        margin-top: 0%;
+        margin-bottom: 0%;
+      }
+      header {
+        background-color: rgba(66, 66, 66, 0.751);
+        padding: 10px;
+        text-align: center;
+        font-size: 25px;
+        font-style: italic;
+        color: rgba(255, 255, 255, 0.845);
+        display: block;
+        margin: 0% 0%;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1><img src="assets/logo.png" alt="Logo" height="40px" width="55px" /> Digital Library</h1>
+    </header>
+    <h2>
+      <i>
+        <marquee direction="right"> Welcome to digital library    </marquee>
+      </i>
+    </h2>
+    <lib-router></lib-router>
+  </body>
+</html>

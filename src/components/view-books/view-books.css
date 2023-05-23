@@ -1,0 +1,45 @@
+.homeButton a{
+  color:white;
+  text-decoration: none;
+  top: 160px;
+  left: 40px;
+  position: absolute;
+  font-size: x-large;
+}
+table {
+  font-family: 'Times New Roman', Times, serif, sans-serif;
+  border-collapse: collapse;
+  width: 800px;
+  background-color: rgb(195, 209, 195);
+  margin: auto;
+  margin-top: 40px;
+}
+
+th {
+  border: 1px solid black;
+  text-align: center;
+  padding: 8px;
+  background-color: lightseagreen;
+}
+
+td {
+  border: 1px solid black;
+  text-align: left;
+  padding: 8px;
+  text-align: center;
+}
+
+.dt {
+  color: white;
+  text-align: center;
+  font-style: oblique;
+  padding-top: 0.5em;
+  font-size: 30px;
+  font-weight: bolder;
+  text-decoration: underline;
+}
+
+img{
+  height: 30px;
+  width: 30px;
+}

@@ -1,0 +1,38 @@
+.box {
+    display: flex;
+    background-color: rgba(66, 66, 66, 0.662);
+    height: 440px;
+    width: 440px;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    border-radius: 20px;
+  }
+  
+  .td {
+    padding: 10px 80px;
+    border: 2px solid rgba(255, 255, 255, 0.849);
+    text-align: center;
+  
+  }
+  
+  .td :hover {
+    background-color: orange;
+  }
+  
+  .td a {
+    text-decoration: none;
+    font-size: large;
+    color: white;
+    text-align: center;
+  }
+  
+  #welcome {
+    text-align: center;
+    font-style: italic;
+    color: white;
+  }
+  
+  .box tr {
+    margin-bottom: 10px;
+  }
